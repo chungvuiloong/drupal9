@@ -1,0 +1,22 @@
+uuid: cee47867-e799-49ed-b929-b9902f9326f4
+langcode: en
+status: false
+dependencies:
+  theme:
+    - idyllic
+_core:
+  default_config_hash: F0o18NPRbSBIu6tG3OhmIGi_Xj5SivtpSVVZi48yvXA
+id: idyllic_local_tasks
+theme: idyllic
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

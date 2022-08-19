@@ -1,0 +1,47 @@
+favicon:
+  use_default: true
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://idyllic-logo.png'
+  use_default: true
+b5_top_container: container
+b5_top_container_config: ''
+b5_body_schema: none
+b5_body_bg_schema: none
+b5_navbar_schema: none
+b5_navbar_bg_schema: none
+b5_footer_schema: none
+b5_footer_bg_schema: none
+subtheme_folder: themes/custom
+subtheme_name: 'B5 subtheme'
+subtheme_machine_name: b5subtheme
+show_email: 1
+email_id: info@example.com
+show_phone_no: 1
+phone_no: '+012 345 6789'
+btn_url: 'https://www.drupal.org/project/faq'
+btn_title: FAQ
+show_social_icon: 1
+whatsapp_url: 'https://www.whatsapp.com/'
+facebook_url: 'https://www.facebook.com/'
+instagram_url: 'https://www.instagram.com/'
+twitter_url: 'https://twitter.com'
+linkedin_url: 'https://www.linkedin.com'
+youtube_url: 'https://www.youtube.com/'
+copyright_text: '© Your Site Name. All Rights Reserved.'
+display_slide_show: 1
+display_headline: Idyllic
+no_of_slide: '5'
+slide1_image: {  }
+slide2_image: {  }
+slide3_image: {  }
+slide4_image: {  }
+slide5_image: {  }
+show_copyright_text: 1
+scroll_details: 1
+arrow_up: 'fa fa-angle-double-up'
+show_scroll: 1

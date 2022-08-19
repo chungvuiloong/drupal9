@@ -1,0 +1,29 @@
+name: Idyllic
+type: theme
+description: 'Idyllic Fully responsive theme, Backgroud images slide-show with animation text, Contact fields, Social icons, Arrow up scroller.'
+core_version_requirement: '^8.9 || ^9'
+base theme: bootstrap5
+libraries:
+  - idyllic/global-styling
+stylesheets-remove:
+  - '@bootstrap5/css/style.css'
+regions:
+  header: Header
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  slide_show: 'Slide Show'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer_third: 'Footer Third' 
+  footer_fourth: 'Footer Fourth'
+  footer: 'footer'
+
+# Information added by Drupal.org packaging script on 2022-08-03
+version: '1.0.0'
+project: 'idyllic'
+datestamp: 1659508876

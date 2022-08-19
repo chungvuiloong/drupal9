@@ -1,0 +1,25 @@
+uuid: 516c8cb9-4b80-4cf3-8b4a-ba1edad11696
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - idyllic
+_core:
+  default_config_hash: w7WWEcGlPdhqzImYn7oakkkBuDlcjdRc_8q3Z45EjhM
+id: idyllic_branding
+theme: idyllic
+region: header
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

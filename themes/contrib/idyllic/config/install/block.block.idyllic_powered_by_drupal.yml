@@ -1,0 +1,22 @@
+uuid: ab8de425-9792-4365-a69c-73ba6ef2aae4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - idyllic
+_core:
+  default_config_hash: PMgiTqO_-Y_h5gozO-x4SJXf9oJgJ8wH5xkW63oCL3c
+id: idyllic_powered_by_drupal
+theme: idyllic
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

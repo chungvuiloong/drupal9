@@ -1,0 +1,22 @@
+uuid: 23dff894-123f-4835-8db4-b4f5fc845574
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - idyllic
+_core:
+  default_config_hash: URBunHpU1bB5KumuQ6netGId39KQ4rLnuPgttMU8tPY
+id: idyllic_content
+theme: idyllic
+region: header
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

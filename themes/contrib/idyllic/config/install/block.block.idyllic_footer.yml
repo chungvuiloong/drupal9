@@ -1,0 +1,27 @@
+uuid: 0003ad5a-b566-41da-b6d6-ef6a18f88d60
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - idyllic
+_core:
+  default_config_hash: yUe7ogUpNODDBzDVFayC5oDycgL9oxJ0S2lPwnoL0xs
+id: idyllic_footer
+theme: idyllic
+region: footer
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

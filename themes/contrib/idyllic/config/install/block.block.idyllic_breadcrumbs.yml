@@ -1,0 +1,22 @@
+uuid: 00713e11-5d43-4151-8cff-f56932334f27
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - idyllic
+_core:
+  default_config_hash: uGjQQUVCnTAZEV_8gAqfK5UI9IbTdozw3C464wU74BQ
+id: idyllic_breadcrumbs
+theme: idyllic
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
