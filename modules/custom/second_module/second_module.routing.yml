@@ -1,0 +1,7 @@
+second_module.second:
+  path: '/second/page'
+  defaults:
+    _controller: '\Drupal\second_module\Controller\SecondController::second'
+    _title: 'MrJays Second Module'
+  requirements: 
+    _permission: 'access content'

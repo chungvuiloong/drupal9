@@ -1,7 +1,17 @@
 first_module.first:
-  path: '/first/page'
+  path: '/first/pages'
   defaults:
     _controller: '\Drupal\first_module\Controller\FirstController::first'
     _title: 'MrJays First Module'
   requirements: 
     _permission: 'access content'
+
+
+
+# first_module.pikachu:
+#   path: '/first/pikachu'
+#   defaults:
+#     _controller: '\Drupal\first_module\Controller\FirstController::pikachu'
+#     _title: 'MrJays pikachu Module'
+#   requirements: 
+#     _permission: 'access content'
