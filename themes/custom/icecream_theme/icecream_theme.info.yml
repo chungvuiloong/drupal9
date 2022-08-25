@@ -1,0 +1,19 @@
+name: Icecream theme 
+type: theme
+description: 'A very basic Custome theme created by James'
+base theme: stable
+core_version_requirement: ^9
+version: 1.0.0
+
+libraries:
+- icecream_theme/global
+
+regions:
+  header: Header
+  body: Body
+  content: Content
+  sidebar: Sidebar
+  menu: Menu
+  pokemon: 'Pokemon'
+  wtf: 'WTF'
+  footer: Footer
