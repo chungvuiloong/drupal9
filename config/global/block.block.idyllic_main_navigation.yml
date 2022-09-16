@@ -1,0 +1,27 @@
+uuid: be5d5513-a5d1-49a4-a400-f3d6c75eb537
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - idyllic
+_core:
+  default_config_hash: X_qiHgKYSYHrvyc1obdRsU0H57HZn19iEmJR3z8xz8A
+id: idyllic_main_navigation
+theme: idyllic
+region: nav_main
+weight: -8
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 2ad713fb-b63f-4c03-a8d0-ca28d25150ef
+langcode: en
+status: false
+dependencies:
+  theme:
+    - idyllic
+_core:
+  default_config_hash: 0_KEiycKHVFPIIXs1fYa_M_vjJouh1Nz2wj_l4LDmhg
+id: idyllic_page_title
+theme: idyllic
+region: header
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

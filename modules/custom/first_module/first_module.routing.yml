@@ -1,5 +1,5 @@
 first_module.first:
-  path: '/first/pages'
+  path: '/first/page'
   defaults:
     _controller: '\Drupal\first_module\Controller\FirstController::first'
     _title: 'MrJays First Module'

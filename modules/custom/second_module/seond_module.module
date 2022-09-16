@@ -1,0 +1,19 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/** Implements hook_help()
+*
+*/
+
+function second_module_help($route_name, RouteMatchInterface $route_match) {
+    switch($route_name) {
+        case 'help.page.second_module':
+        $output = '';
+        $output .= '<h3>' .t('About') . '</h3>';
+        $output .= '<p>' .t('This is the first module help hook for custom module.') . '</p>';
+
+        return $output;
+        default:
+    }
+}

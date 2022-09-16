@@ -1,0 +1,22 @@
+uuid: 32c9b6d7-e6e1-4c97-be00-47c9d04b9ddb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - react_drupal
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: react_drupal_messages
+theme: react_drupal
+region: header
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

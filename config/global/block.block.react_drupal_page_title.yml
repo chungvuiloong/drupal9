@@ -1,0 +1,20 @@
+uuid: 22048b6e-04c3-4253-ab5d-9bdb8b01b23d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - react_drupal
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: react_drupal_page_title
+theme: react_drupal
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

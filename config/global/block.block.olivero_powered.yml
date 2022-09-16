@@ -1,0 +1,22 @@
+uuid: 24ebb33f-270b-48e1-b73e-f4ac31215c23
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - olivero
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: olivero_powered
+theme: olivero
+region: footer_top
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Coded by MrJay'
+  label_display: '0'
+  provider: system
+visibility: {  }

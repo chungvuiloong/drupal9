@@ -1,0 +1,8 @@
+uuid: b3925893-46b2-45bc-818a-44c1ced964f5
+langcode: en
+status: true
+dependencies: {  }
+id: devel-sunoprefrikiguridrod
+label: Lo
+description: 'Description of Lo'
+locked: false

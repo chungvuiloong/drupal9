@@ -1,0 +1,25 @@
+uuid: f09b7cfd-eb69-4582-9507-f78d9e785d58
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - react_drupal
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: react_drupal_site_branding
+theme: react_drupal
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: McDonalds_Branding
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

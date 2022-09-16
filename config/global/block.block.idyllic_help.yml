@@ -1,0 +1,22 @@
+uuid: 4ce38f91-487e-4d50-86df-33ac8aaa714e
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - idyllic
+_core:
+  default_config_hash: yPLgyaOYYA3rpJyI_-baEjoZErjmJuXCiT5ZhTwDPpo
+id: idyllic_help
+theme: idyllic
+region: header
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

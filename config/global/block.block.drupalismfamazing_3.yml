@@ -1,0 +1,25 @@
+uuid: ab27df37-1bfe-416e-861f-c30b820989fd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7c5ac666-b01a-4dca-8a93-1b212c9912cb'
+  module:
+    - block_content
+  theme:
+    - react_drupal
+id: drupalismfamazing_3
+theme: react_drupal
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:7c5ac666-b01a-4dca-8a93-1b212c9912cb'
+settings:
+  id: 'block_content:7c5ac666-b01a-4dca-8a93-1b212c9912cb'
+  label: 'Drupal is mf amazing'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

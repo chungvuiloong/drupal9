@@ -1,0 +1,25 @@
+uuid: 459b6783-0618-4651-9140-0c6808f76d60
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - icecream_theme
+id: footer_3
+theme: icecream_theme
+region: footer
+weight: -7
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

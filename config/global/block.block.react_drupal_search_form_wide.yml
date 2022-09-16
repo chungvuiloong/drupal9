@@ -1,0 +1,23 @@
+uuid: 07687889-b55e-4bae-a253-41887303b012
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - react_drupal
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: react_drupal_search_form_wide
+theme: react_drupal
+region: header
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

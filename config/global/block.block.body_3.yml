@@ -1,0 +1,25 @@
+uuid: 7393a4b1-2647-4430-b696-efde702f90fb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:73fd2fe6-7e94-437f-b664-7bbb4fc55412'
+  module:
+    - block_content
+  theme:
+    - icecream_theme
+id: body_3
+theme: icecream_theme
+region: body
+weight: 0
+provider: null
+plugin: 'block_content:73fd2fe6-7e94-437f-b664-7bbb4fc55412'
+settings:
+  id: 'block_content:73fd2fe6-7e94-437f-b664-7bbb4fc55412'
+  label: Body
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: 22859472-08a2-4ea5-9bb3-90a76a1b3dd3
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_lock
+id: comment_break_lock_action
+label: 'Break lock comment'
+type: comment
+plugin: 'entity:break_lock:comment'
+configuration: {  }

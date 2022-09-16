@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: c2898406-8541-4175-ae17-f8cea0f1f814
+name: 'MrJay''s lovely dovey site'
+mail: admin@example.com
+slogan: 'Awesome platform'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

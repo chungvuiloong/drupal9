@@ -1,0 +1,40 @@
+uuid: fc4c70f0-26ef-418e-9d35-7b228e36376f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.body.body
+    - field.field.node.body.comment
+    - node.type.body
+  module:
+    - comment
+    - text
+    - user
+id: node.body.default
+targetEntityType: node
+bundle: body
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  comment:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

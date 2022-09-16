@@ -1,0 +1,27 @@
+uuid: c0115328-91f0-47c2-9771-461bdfdaf695
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - idyllic
+_core:
+  default_config_hash: hn6mweOM9BqqQMMCD_V63vCZhXjSPfDBk9lpVFyiSNg
+id: idyllic_account_menu
+theme: idyllic
+region: header
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

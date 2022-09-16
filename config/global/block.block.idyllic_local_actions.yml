@@ -1,0 +1,20 @@
+uuid: da00f66d-d70a-45ab-9b50-f7889b741716
+langcode: en
+status: false
+dependencies:
+  theme:
+    - idyllic
+_core:
+  default_config_hash: GYvaqP_7yOoRBAX_yLQ1BS9j8aYbe1SPLzhb2z04tLs
+id: idyllic_local_actions
+theme: idyllic
+region: header
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

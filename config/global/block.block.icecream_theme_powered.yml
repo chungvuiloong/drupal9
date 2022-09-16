@@ -1,0 +1,22 @@
+uuid: d528ab7f-6cb6-4bdf-a5b4-cbe6c8b7033b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - icecream_theme
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: icecream_theme_powered
+theme: icecream_theme
+region: footer
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

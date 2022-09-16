@@ -1,0 +1,9 @@
+name: react_drupal_theme
+type: theme
+description: 'A very basic Custom theme created by MrJay'
+base theme: bartik
+core_version_requirement: ^9
+version: 1.0.0
+
+libraries:
+- react_drupal/react_app
